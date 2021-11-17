@@ -6,8 +6,10 @@ public class Stick {
 
 
         stickState(){
-            
+
         }
+
+        /// need reutnr statements and logic -- add threading
     }
 
 
