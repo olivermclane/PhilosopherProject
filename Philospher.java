@@ -9,22 +9,24 @@ public class Philospher implements Runnable{
     
     PhilospherStates(int timeToWait){
          this.timeTofinish = timeToWait;
-     }
+    }
     
     }
 
     //different sticks for philospher location, this shoudl help us decipher which are avaliable
     private Stick rightStick;
     private Stick leftStick;
+    private PhilospherStates state;
 
     public Philospher(Stick left, Stick right){
         this.leftStick = left;
         this.rightStick = right;
+        state = PhilospherStates.THINKING;
     }
 
-    //takes a string for an action
-    private void doSomething(){
-
+    //takes a string for an action and computes what to do and waits the thread 
+    private void doYourAction(){
+        System.out.println()
     }
 
     @Override
