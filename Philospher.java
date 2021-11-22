@@ -1,13 +1,14 @@
+
 public class Philospher implements Runnable{
     
     public enum PhilospherStates{
         THINKING(120), 
         HUNGRY(50), 
-        EATING(110);
+        EATING(Math.random()* 100);
     
-    public int timeTofinish;
+    public double timeTofinish;
     
-    PhilospherStates(int timeToWait){
+    PhilospherStates(double timeToWait){
          this.timeTofinish = timeToWait;
     }
     
@@ -25,8 +26,9 @@ public class Philospher implements Runnable{
     }
 
     //takes a string for an action and computes what to do and waits the thread 
-    private void doYourAction(){
-        System.out.println()
+    private void doYourAction() throws InterruptedException{
+        System.out.println(Thread.currentThread().getName() + " " +state.toString());
+        Thread.sleep((int) state.timeTofinish);
     }
 
     @Override
