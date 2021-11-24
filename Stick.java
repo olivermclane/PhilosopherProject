@@ -1,26 +1,28 @@
 public class Stick {
-    
-    public enum stickState{
-        AVAILABLE,
-        TAKEN; 
 
+    public enum stickState {
+        AVAILABLE, TAKEN;
 
-
-        stickState(){
+        stickState() {
         }
-
-        /// need reutnr statements and logic -- add threading
     }
 
     public stickState state;
 
-    Stick(){
+    Stick() {
         state = stickState.AVAILABLE;
     }
 
+    public void avaliable() {
+        state = stickState.AVAILABLE;
+    }
 
-    public String 
+    public void taken() {
+        state = stickState.TAKEN;
+    }
 
-
+    public String avaliablity() {
+        return state.toString();
+    }
 
 }
