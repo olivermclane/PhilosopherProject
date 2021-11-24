@@ -11,10 +11,15 @@ public class Table {
         }
         //creates the philospohers and assigns left and right stick
         for(int i = 0; i < 5; i++){
+            System.out.println("This worked");
             Stick right = sticks.get(i);
             Stick left = sticks.get((i+1)%sticks.size());
+            if(i == philosophers.size()-1){
+                philosophers.add(new Philospher(right, left, i));
+            }else{
+                philosophers.add(new Philospher(left, right, i));
+            }
 
-            philosophers.add(i, new Philospher(right, left, i));
             philosophers.get(i).startThread();
         }
     }

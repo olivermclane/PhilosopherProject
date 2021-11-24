@@ -2,7 +2,7 @@
 public class Philospher implements Runnable {
 
     public enum PhilospherStates {
-        THINKING(Math.random() * 120), EATING(Math.random() * 100);
+        THINKING(Math.random() * 2000), EATING(Math.random() * 1400);
 
         public double timeTofinish;
 
