@@ -14,7 +14,7 @@ public class Table {
      *                   handled
      */
     public static void main(String args[]) throws Exception {
-        long endTime = 10000;
+        long endTime = 60000;
         List<Philospher> philosophers = new ArrayList<Philospher>(5);
         List<Stick> sticks = new ArrayList<Stick>(5);
 
@@ -46,11 +46,11 @@ public class Table {
                 System.out.println("Issue sleeping main thread");
             }
         }
-
+        //stop the process running
         for(int i = 0; i < philosophers.size(); i++){
             philosophers.get(i).threadStop();
         }
-
+        //closes the thread
         for(int i = 0; i<5; i++){
             philosophers.get(i).stopThreadWait();
             
