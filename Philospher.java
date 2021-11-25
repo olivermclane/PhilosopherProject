@@ -2,7 +2,7 @@ public class Philospher implements Runnable {
 
     public enum PhilospherStates {
         THINKING(Math.random() * 2500), EATING(Math.random() * 2000);
-        
+
         public double timeTofinish;
 
         /**
@@ -27,6 +27,7 @@ public class Philospher implements Runnable {
     private Stick leftStick;
     private PhilospherStates state;
     private final Thread philoThread;
+    private boolean thinking;
 
     /**
      * This is the Philopsoher object and this keeps track of the sticks next to it
@@ -40,6 +41,7 @@ public class Philospher implements Runnable {
         this.leftStick = lefStick;
         this.rightStick = righStick;
         state = PhilospherStates.THINKING;
+        thinking = true;
         philoThread = new Thread(this, "Philosopher: " + philoNum);
 
     }
@@ -67,12 +69,32 @@ public class Philospher implements Runnable {
             break;
         }
     }
+    /**
+     * This will stop the threads from print and doing work
+     */
+    public void threadStop(){
+        thinking = false;
+    }
 
     /**
      * This simply starts the philosopher thread
      */
     public void startThread() {
         philoThread.start();
+    }
+
+    /**
+     * This method will be used to stop the threads
+     * @throws InterruptedException catches interupts
+     */
+    public void stopThreadWait(){
+        try{
+            philoThread.join();
+            System.out.println(philoThread.getName()+ " is stopping");
+        }catch(InterruptedException e){
+            System.err.println(philoThread.getName() + " stop malfunction");
+
+        }
     }
 
     /**
@@ -83,7 +105,7 @@ public class Philospher implements Runnable {
     public void run() {
         try {
             // will continue to loop
-            while (true) {
+            while (thinking) {
                 // should start at thinking
                 whatyouDoing();
                 // need to check the left fork and right stick too see if they are being used
