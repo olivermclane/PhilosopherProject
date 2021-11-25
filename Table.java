@@ -14,7 +14,9 @@ public class Table {
             System.out.println("This worked");
             Stick right = sticks.get(i);
             Stick left = sticks.get((i+1)%sticks.size());
-            if(i == philosophers.size()-1){
+            System.out.println(philosophers.size());
+            System.out.println();
+            if(i == 3) {
                 philosophers.add(new Philospher(right, left, i));
             }else{
                 philosophers.add(new Philospher(left, right, i));

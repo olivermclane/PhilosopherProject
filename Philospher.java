@@ -1,4 +1,3 @@
-
 public class Philospher implements Runnable {
 
     public enum PhilospherStates {
@@ -6,6 +5,10 @@ public class Philospher implements Runnable {
 
         public double timeTofinish;
 
+        /**
+         * This will set the states of the philosopher and keep track of the think or eating times.
+         * @param timeToWait will decide how long the philosopher will either THINK or EAT
+         */
         PhilospherStates(double timeToWait) {
             this.timeTofinish = timeToWait;
         }
@@ -19,7 +22,13 @@ public class Philospher implements Runnable {
     private PhilospherStates state;
     private final Thread philoThread;
 
-
+    /** 
+     * This is the Philopsoher object and this keeps track of the sticks
+     * next to it and which philosopher/thread it is.
+     * @param rightStick a placeholder for the right stick
+     * @param leftStick a placeholder for the left stick
+     * @param philoNum the name for the philosopher
+    */
     public Philospher(Stick righStick, Stick lefStick, int philoNum) {
         this.leftStick = lefStick;
         this.rightStick = righStick;
@@ -28,8 +37,13 @@ public class Philospher implements Runnable {
 
     }
 
-    // using the state of the Philosopher it will decide how long to let the
-    // philsopher think or eat
+    /**
+     *  This method will print the current state of the philosopher 
+     *  and based on the state will generate times to sleep the thread while they
+     *  either think or eat
+     *  @exception InterruptedException used to manage the sleeping of the thread, will throw if it's distrubed while sleeping waiting or occupied
+     * 
+     **/
     private void whatyouDoing() throws InterruptedException {
         System.out.println(Thread.currentThread().getName() + " " + state.toString());
         Thread.sleep((int) state.timeTofinish);
@@ -44,11 +58,17 @@ public class Philospher implements Runnable {
             break;
         }
     }
+    /**
+     * 
+     */
     public void startThread(){
         philoThread.start();
     }
 
     @Override
+    /**
+     * 
+     */
     public void run() {
         try {
             // will continue to loop
@@ -60,11 +80,12 @@ public class Philospher implements Runnable {
                     System.out.println(Thread.currentThread().getName() + ": Right Stick Taken");
                     rightStick.taken();
                     synchronized (leftStick) {
-                        System.out.println(Thread.currentThread().getName() + ": Left Stick Taken");
-                        leftStick.taken();
-                        whatyouDoing();
+                            System.out.println(Thread.currentThread().getName() + ": Left Stick Taken");
+                            leftStick.taken();
+                            whatyouDoing();
                     }
                 }
+                //this was for testing purposes
                 leftStick.avaliable();
                 rightStick.avaliable();
             }
