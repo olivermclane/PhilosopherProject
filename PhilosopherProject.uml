@@ -1,2 +1,382 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7xaSsFFFEey4CoftbdHmzg" name="PhilosopherProject"/>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_7xaSsFFFEey4CoftbdHmzg" name="PhilosopherProject">
+    <eAnnotations xmi:id="_70hREFFFEey4CoftbdHmzg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_70hREVFFEey4CoftbdHmzg" source="codegen">
+        <details xmi:id="_70hRElFFEey4CoftbdHmzg" key="codegenDirectory" value="/PhilosopherProject"/>
+        <details xmi:id="_786YEFFFEey4CoftbdHmzg" key="AssociatedSourceCode" value="/PhilosopherProject/Philospher.java;697656000/1;/PhilosopherProject/Stick.java;1378479704/1;/PhilosopherProject/Table.java;3630789079/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_76Sh4FFFEey4CoftbdHmzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_76Sh4VFFEey4CoftbdHmzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_76Sh4lFFEey4CoftbdHmzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_76Sh41FFEey4CoftbdHmzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_76Sh5FFFEey4CoftbdHmzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_76Sh5VFFEey4CoftbdHmzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_76Sh5lFFEey4CoftbdHmzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_76Sh51FFEey4CoftbdHmzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_76TI8FFFEey4CoftbdHmzg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_76bEwFFFEey4CoftbdHmzg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_76bEwVFFEey4CoftbdHmzg" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_77olsFFFEey4CoftbdHmzg" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_77pMwFFFEey4CoftbdHmzg" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_77rB8FFFEey4CoftbdHmzg" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_77rB8VFFEey4CoftbdHmzg" name="Runnable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_77sQEFFFEey4CoftbdHmzg" name="Thread"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_77s3IVFFEey4CoftbdHmzg" name="InterruptedException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_77vTYFFFEey4CoftbdHmzg" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_76f9QFFFEey4CoftbdHmzg" name="Philospher">
+      <ownedAttribute xmi:id="_77xIkVFFEey4CoftbdHmzg" name="rightStick" visibility="private" type="_76mq8FFFEey4CoftbdHmzg" association="_774dUFFFEey4CoftbdHmzg"/>
+      <ownedAttribute xmi:id="_77xvoFFFEey4CoftbdHmzg" name="leftStick" visibility="private" type="_76mq8FFFEey4CoftbdHmzg" association="_775EYVFFEey4CoftbdHmzg"/>
+      <ownedAttribute xmi:id="_77xvolFFEey4CoftbdHmzg" name="state" visibility="private" type="_76gkUFFFEey4CoftbdHmzg"/>
+      <ownedAttribute xmi:id="_77yWsFFFEey4CoftbdHmzg" name="philoThread" visibility="private" isLeaf="true" type="_77sQEFFFEey4CoftbdHmzg" isReadOnly="true" association="_775rcFFFEey4CoftbdHmzg"/>
+      <ownedAttribute xmi:id="_77yWslFFEey4CoftbdHmzg" name="thinking" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_77rpAFFFEey4CoftbdHmzg" client="_76f9QFFFEey4CoftbdHmzg" supplier="_77rB8VFFEey4CoftbdHmzg" contract="_77rB8VFFEey4CoftbdHmzg"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_770y8FFFEey4CoftbdHmzg" name="Philospher" specification="_77mJcFFFEey4CoftbdHmzg">
+        <ownedParameter xmi:id="_770y8VFFEey4CoftbdHmzg" name="righStick" type="_76mq8FFFEey4CoftbdHmzg"/>
+        <ownedParameter xmi:id="_770y8lFFEey4CoftbdHmzg" name="lefStick" type="_76mq8FFFEey4CoftbdHmzg"/>
+        <ownedParameter xmi:id="_770y81FFEey4CoftbdHmzg" name="philoNum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_770y9FFFEey4CoftbdHmzg" type="_76f9QFFFEey4CoftbdHmzg" direction="return"/>
+        <language>java</language>
+        <body>this.leftStick = lefStick;&#xD;
+     this.rightStick = righStick;&#xD;
+     state = PhilospherStates.THINKING;&#xD;
+     thinking = true;&#xD;
+     philoThread = new Thread(this, &quot;Philosopher: &quot; + philoNum);&#xD;
+&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_770y9VFFEey4CoftbdHmzg" name="whatyouDoing" specification="_76jnoFFFEey4CoftbdHmzg">
+        <language>java</language>
+        <body>System.out.println(Thread.currentThread().getName() + &quot; &quot; + state.toString());&#xD;
+     Thread.sleep((int) state.timeTofinish);&#xD;
+&#xD;
+     // after they finish the current state they will switch to the next&#xD;
+     switch (state) {&#xD;
+     case EATING:&#xD;
+         state = PhilospherStates.THINKING;&#xD;
+         break;&#xD;
+     case THINKING:&#xD;
+         state = PhilospherStates.EATING;&#xD;
+         break;&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_770y9lFFEey4CoftbdHmzg" name="threadStop" specification="_76kOsFFFEey4CoftbdHmzg">
+        <language>java</language>
+        <body>thinking = false;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_770y91FFEey4CoftbdHmzg" name="startThread" specification="_76kOsVFFEey4CoftbdHmzg">
+        <language>java</language>
+        <body>philoThread.start();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_771aAFFFEey4CoftbdHmzg" name="stopThreadWait" specification="_76kOslFFEey4CoftbdHmzg">
+        <language>java</language>
+        <body>try{&#xD;
+         philoThread.join();&#xD;
+         System.out.println(philoThread.getName()+ &quot; is stopping&quot;);&#xD;
+     }catch(InterruptedException e){&#xD;
+         System.err.println(philoThread.getName() + &quot; stop malfunction&quot;);&#xD;
+&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_771aAVFFEey4CoftbdHmzg" name="run" specification="_76kOs1FFEey4CoftbdHmzg">
+        <language>java</language>
+        <body>try {&#xD;
+         // will continue to loop&#xD;
+         while (thinking) {&#xD;
+             // should start at thinking&#xD;
+             whatyouDoing();&#xD;
+             // need to check the left fork and right stick too see if they are being used&#xD;
+             synchronized (rightStick) {&#xD;
+                 System.out.println(Thread.currentThread().getName() + &quot;: Right Stick Taken&quot;);&#xD;
+                 rightStick.taken();&#xD;
+                 synchronized (leftStick) {&#xD;
+                     System.out.println(Thread.currentThread().getName() + &quot;: Left Stick Taken&quot;);&#xD;
+                     leftStick.taken();&#xD;
+                     whatyouDoing();&#xD;
+                 }&#xD;
+             }&#xD;
+             // this was for testing purposes&#xD;
+             leftStick.avaliable();&#xD;
+             rightStick.avaliable();&#xD;
+         }&#xD;
+     } catch (InterruptedException e) {&#xD;
+         Thread.currentThread().interrupt();&#xD;
+         return;&#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_76jnoFFFEey4CoftbdHmzg" name="whatyouDoing" visibility="private" method="_770y9VFFEey4CoftbdHmzg" raisedException="_77s3IVFFEey4CoftbdHmzg">
+        <ownedComment xmi:id="_772oJFFFEey4CoftbdHmzg">
+          <body>This method will print the current state of the philosopher and based on the&#xD;
+     * state will generate times to sleep the thread while they either think or eat&#xD;
+     * &#xD;
+     * @exception InterruptedException used to manage the sleeping of the thread,&#xD;
+     *                                 will throw if it's distrubed while sleeping&#xD;
+     *                                 waiting or occupied&#xD;
+     *</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_76kOsFFFEey4CoftbdHmzg" name="threadStop" method="_770y9lFFEey4CoftbdHmzg">
+        <ownedComment xmi:id="_772oJVFFEey4CoftbdHmzg">
+          <body>This will stop the threads from print and doing work</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_76kOsVFFEey4CoftbdHmzg" name="startThread" method="_770y91FFEey4CoftbdHmzg">
+        <ownedComment xmi:id="_772oJlFFEey4CoftbdHmzg">
+          <body>This simply starts the philosopher thread</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_76kOslFFEey4CoftbdHmzg" name="stopThreadWait" method="_771aAFFFEey4CoftbdHmzg">
+        <ownedComment xmi:id="_773PMFFFEey4CoftbdHmzg">
+          <body>This method will be used to stop the threads&#xD;
+     * @throws InterruptedException catches interupts</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_76kOs1FFEey4CoftbdHmzg" name="run" method="_771aAVFFEey4CoftbdHmzg"/>
+      <ownedOperation xmi:id="_77mJcFFFEey4CoftbdHmzg" name="Philospher" method="_770y8FFFEey4CoftbdHmzg">
+        <eAnnotations xmi:id="_77mJdFFFEey4CoftbdHmzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_77mJdVFFEey4CoftbdHmzg" key="create"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_772oI1FFEey4CoftbdHmzg">
+          <body>This is the Philopsoher object and this keeps track of the sticks next to it&#xD;
+     * and which philosopher/thread it is.&#xD;
+     * &#xD;
+     * @param rightStick a placeholder for the right stick&#xD;
+     * @param leftStick  a placeholder for the left stick&#xD;
+     * @param philoNum   the name for the philosopher</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_77mJcVFFEey4CoftbdHmzg" name="righStick" type="_76mq8FFFEey4CoftbdHmzg"/>
+        <ownedParameter xmi:id="_77mJclFFEey4CoftbdHmzg" name="lefStick" type="_76mq8FFFEey4CoftbdHmzg"/>
+        <ownedParameter xmi:id="_77mJc1FFEey4CoftbdHmzg" name="philoNum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_77mJdlFFEey4CoftbdHmzg" type="_76f9QFFFEey4CoftbdHmzg" direction="return"/>
+      </ownedOperation>
+      <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_76gkUFFFEey4CoftbdHmzg" name="PhilospherStates">
+        <ownedAttribute xmi:id="_77whgFFFEey4CoftbdHmzg" name="timeTofinish">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_76hycFFFEey4CoftbdHmzg" name="PhilospherStates" visibility="package" method="_77zk0VFFEey4CoftbdHmzg">
+          <eAnnotations xmi:id="_76iZgVFFEey4CoftbdHmzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_76iZglFFEey4CoftbdHmzg" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_772oIlFFEey4CoftbdHmzg">
+            <body>This will set the states of the philosopher and keep track of the think or&#xD;
+         * eating times.&#xD;
+         * &#xD;
+         * @param timeToWait will decide how long the philosopher will either THINK or&#xD;
+         *                   EAT</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_76iZgFFFEey4CoftbdHmzg" name="timeToWait">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_76iZg1FFEey4CoftbdHmzg" type="_76gkUFFFEey4CoftbdHmzg" direction="return"/>
+        </ownedOperation>
+        <ownedLiteral xmi:id="_76hLYFFFEey4CoftbdHmzg" name="THINKING">
+          <specification xmi:type="uml:Expression" xmi:id="_76hLYVFFEey4CoftbdHmzg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_772oIFFFEey4CoftbdHmzg" value="Math.random() * 2500"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_76hLYlFFEey4CoftbdHmzg" name="EATING">
+          <specification xmi:type="uml:Expression" xmi:id="_76hLY1FFEey4CoftbdHmzg">
+            <operand xmi:type="uml:LiteralString" xmi:id="_772oIVFFEey4CoftbdHmzg" value="Math.random() * 2000"/>
+          </specification>
+        </ownedLiteral>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_76mq8FFFEey4CoftbdHmzg" name="Stick">
+      <ownedComment xmi:id="_773PMVFFEey4CoftbdHmzg">
+        <body>This is the stick class and allows you to create a stick object. This will be&#xD;
+able to keep track of the sticks state.</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_77y9wVFFEey4CoftbdHmzg" name="state" type="_76nSAFFFEey4CoftbdHmzg"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_771aAlFFEey4CoftbdHmzg" name="Stick" specification="_76n5FFFFEey4CoftbdHmzg">
+        <ownedParameter xmi:id="_771aA1FFEey4CoftbdHmzg" type="_76mq8FFFEey4CoftbdHmzg" direction="return"/>
+        <language>java</language>
+        <body>state = stickState.AVAILABLE;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_771aBFFFEey4CoftbdHmzg" name="avaliable" specification="_76ogI1FFEey4CoftbdHmzg">
+        <language>java</language>
+        <body>state = stickState.AVAILABLE;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_772BEFFFEey4CoftbdHmzg" name="taken" specification="_76ogJFFFEey4CoftbdHmzg">
+        <language>java</language>
+        <body>state = stickState.TAKEN;&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_772BEVFFEey4CoftbdHmzg" name="avaliablity" specification="_76ogJVFFEey4CoftbdHmzg">
+        <ownedParameter xmi:id="_772BElFFEey4CoftbdHmzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return state.toString();&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_76n5FFFFEey4CoftbdHmzg" name="Stick" visibility="package" method="_771aAlFFEey4CoftbdHmzg">
+        <eAnnotations xmi:id="_76ogIFFFEey4CoftbdHmzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_76ogIVFFEey4CoftbdHmzg" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_76ogIlFFEey4CoftbdHmzg" type="_76mq8FFFEey4CoftbdHmzg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_76ogI1FFEey4CoftbdHmzg" name="avaliable" method="_771aBFFFEey4CoftbdHmzg"/>
+      <ownedOperation xmi:id="_76ogJFFFEey4CoftbdHmzg" name="taken" method="_772BEFFFEey4CoftbdHmzg"/>
+      <ownedOperation xmi:id="_76ogJVFFEey4CoftbdHmzg" name="avaliablity" method="_772BEVFFEey4CoftbdHmzg">
+        <ownedParameter xmi:id="_76ogJlFFEey4CoftbdHmzg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_76nSAFFFEey4CoftbdHmzg" name="stickState">
+        <ownedOperation xmi:id="_76nSA1FFEey4CoftbdHmzg" name="stickState" visibility="package">
+          <eAnnotations xmi:id="_76n5EFFFEey4CoftbdHmzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_76n5EVFFEey4CoftbdHmzg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_76n5E1FFEey4CoftbdHmzg" type="_76nSAFFFEey4CoftbdHmzg" direction="return"/>
+        </ownedOperation>
+        <ownedLiteral xmi:id="_76nSAVFFEey4CoftbdHmzg" name="AVAILABLE"/>
+        <ownedLiteral xmi:id="_76nSAlFFEey4CoftbdHmzg" name="TAKEN"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_76pHMFFFEey4CoftbdHmzg" name="Table">
+      <ownedComment xmi:id="_773PMlFFEey4CoftbdHmzg">
+        <body>This will in essence be the creation of the table.</body>
+      </ownedComment>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_772BE1FFEey4CoftbdHmzg" name="main" specification="_76puQFFFEey4CoftbdHmzg">
+        <ownedParameter xmi:id="_772BFFFFEey4CoftbdHmzg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_772BFVFFEey4CoftbdHmzg" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>long endTime = 60000;&#xD;
+     List&lt;Philospher> philosophers = new ArrayList&lt;Philospher>(5);&#xD;
+     List&lt;Stick> sticks = new ArrayList&lt;Stick>(5);&#xD;
+&#xD;
+     // creates all my sticks for the table&#xD;
+     for (int i = 0; i &lt; 5; i++) {&#xD;
+         sticks.add(i, new Stick());&#xD;
+     }&#xD;
+&#xD;
+     // creates the philospohers and assigns left and right stick&#xD;
+     for (int i = 0; i &lt; 5; i++) {&#xD;
+         Stick right = sticks.get(i);&#xD;
+         Stick left = sticks.get((i + 1) % sticks.size());&#xD;
+         // current problem talked about 5 philo so at the 4 index in the arraylist&#xD;
+         // switch the philosopher right for left stick to avoid deadlock&#xD;
+         if (i == 3) {&#xD;
+             philosophers.add(new Philospher(right, left, i));&#xD;
+         } else {&#xD;
+             philosophers.add(new Philospher(left, right, i));&#xD;
+         }&#xD;
+&#xD;
+         philosophers.get(i).startThread();&#xD;
+     }&#xD;
+     //delay time&#xD;
+     while(true){&#xD;
+         try{&#xD;
+             Thread.currentThread().sleep(endTime);&#xD;
+             break;&#xD;
+         }catch(InterruptedException e){&#xD;
+             System.out.println(&quot;Issue sleeping main thread&quot;);&#xD;
+         }&#xD;
+     }&#xD;
+     //stop the process running&#xD;
+     for(int i = 0; i &lt; philosophers.size(); i++){&#xD;
+         philosophers.get(i).threadStop();&#xD;
+     }&#xD;
+     //closes the thread&#xD;
+     for(int i = 0; i&lt;5; i++){&#xD;
+         philosophers.get(i).stopThreadWait();&#xD;
+         &#xD;
+     }&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_76puQFFFEey4CoftbdHmzg" name="main" isStatic="true" method="_772BE1FFEey4CoftbdHmzg" raisedException="_77vTYFFFEey4CoftbdHmzg">
+        <ownedParameter xmi:id="_76puQVFFEey4CoftbdHmzg" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_76puQ1FFEey4CoftbdHmzg" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_774dUFFFEey4CoftbdHmzg" name="" memberEnd="_774dUVFFEey4CoftbdHmzg _77xIkVFFEey4CoftbdHmzg">
+      <ownedEnd xmi:id="_774dUVFFEey4CoftbdHmzg" name="" type="_76f9QFFFEey4CoftbdHmzg" association="_774dUFFFEey4CoftbdHmzg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_775EYVFFEey4CoftbdHmzg" name="" memberEnd="_775EYlFFEey4CoftbdHmzg _77xvoFFFEey4CoftbdHmzg">
+      <ownedEnd xmi:id="_775EYlFFEey4CoftbdHmzg" name="" type="_76f9QFFFEey4CoftbdHmzg" association="_775EYVFFEey4CoftbdHmzg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_775rcFFFEey4CoftbdHmzg" name="" memberEnd="_775rcVFFEey4CoftbdHmzg _77yWsFFFEey4CoftbdHmzg">
+      <ownedEnd xmi:id="_775rcVFFEey4CoftbdHmzg" name="" type="_76f9QFFFEey4CoftbdHmzg" association="_775rcFFFEey4CoftbdHmzg"/>
+    </packagedElement>
+    <profileApplication xmi:id="_70h4IFFFEey4CoftbdHmzg">
+      <eAnnotations xmi:id="_70ifMFFFEey4CoftbdHmzg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_70ifMVFFEey4CoftbdHmzg" base_Package="_7xaSsFFFEey4CoftbdHmzg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_76k1wFFFEey4CoftbdHmzg" base_Element="_76kOs1FFEey4CoftbdHmzg"/>
+  <UMLLabProfile:Annotations xmi:id="_76k1wVFFEey4CoftbdHmzg" base_Element="_76kOs1FFEey4CoftbdHmzg">
+    <annotations xmi:id="_76k1wlFFEey4CoftbdHmzg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_76n5ElFFEey4CoftbdHmzg" base_Element="_76nSA1FFEey4CoftbdHmzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_76puQlFFEey4CoftbdHmzg" base_Element="_76puQFFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:Array xmi:id="_76qVUFFFEey4CoftbdHmzg" base_Element="_76puQVFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:Reference xmi:id="_77olsVFFEey4CoftbdHmzg" base_Element="_77olsFFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:Reference xmi:id="_77pMwVFFEey4CoftbdHmzg" base_Element="_77pMwFFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:Reference xmi:id="_77rB8lFFEey4CoftbdHmzg" base_Element="_77rB8VFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:Reference xmi:id="_77s3IFFFEey4CoftbdHmzg" base_Element="_77sQEFFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:Reference xmi:id="_77teMFFFEey4CoftbdHmzg" base_Element="_77s3IVFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:Reference xmi:id="_77vTYVFFEey4CoftbdHmzg" base_Element="_77vTYFFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77xIkFFFEey4CoftbdHmzg" base_Element="_77whgFFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77xIklFFEey4CoftbdHmzg" base_Element="_77xIkVFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77xvoVFFEey4CoftbdHmzg" base_Element="_77xvoFFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77xvo1FFEey4CoftbdHmzg" base_Element="_77xvolFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77yWsVFFEey4CoftbdHmzg" base_Element="_77yWsFFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77y9wFFFEey4CoftbdHmzg" base_Element="_77yWslFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_77zk0FFFEey4CoftbdHmzg" base_Element="_77y9wVFFEey4CoftbdHmzg"/>
+  <uml:OpaqueBehavior xmi:id="_77zk0VFFEey4CoftbdHmzg" name="PhilospherStates" specification="_76hycFFFEey4CoftbdHmzg">
+    <ownedParameter xmi:id="_770L4FFFEey4CoftbdHmzg" name="timeToWait">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_770L4VFFEey4CoftbdHmzg" type="_76gkUFFFEey4CoftbdHmzg" direction="return"/>
+    <language>java</language>
+    <body>this.timeTofinish = timeToWait;&#xD;
+     </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_775EYFFFEey4CoftbdHmzg" base_Element="_774dUFFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:Reference xmi:id="_775EY1FFEey4CoftbdHmzg" base_Element="_775EYVFFEey4CoftbdHmzg"/>
+  <UMLLabProfile:Reference xmi:id="_776SgFFFEey4CoftbdHmzg" base_Element="_775rcFFFEey4CoftbdHmzg"/>
+</xmi:XMI>
