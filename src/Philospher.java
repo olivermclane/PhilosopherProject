@@ -1,3 +1,5 @@
+package src;
+
 public class Philospher implements Runnable {
 
     public enum PhilospherStates {
