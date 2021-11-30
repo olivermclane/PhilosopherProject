@@ -1,9 +1,9 @@
 <project name="Table" default="compile" basedir=".">
   <!-- set global properties for this build -->
-  <property name="src" location="src"/>
+  <property name="PhilosopherProject" location="PhilosopherProject"/>
   <property name="dist" location="dist"/>
   <presetdef name="javac">
-    <javac includeantruntime="false" />
+    <javac includeantruntime="false"/>
   </presetdef>
 
   <target name="init">
@@ -12,7 +12,7 @@
   </target>
 
   <target name="compile" depends="init">
-    <javac destdir="${dist}/classes" debug="true" srcdir="${src}"/>
+    <javac srcdir="${src}" debug="true" destdir="${dist}/classes"/>
   </target>
 
   <target name="jar" depends="init,compile">
@@ -21,6 +21,10 @@
         <attribute name="Main-Class" value="${ant.project.name}"/>
       </manifest>
     </jar>
+  </target>
+
+  <target name="run" depends="jar">
+    <java jar="${dist}/PhilosopherProject.jar" fork="true"/>
   </target>
 
   <target name="clean">

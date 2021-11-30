@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_7yBWsFFFEey4CoftbdHmzg">
+  <modelElement href="PhilosopherProject.uml#_7xaSsFFFEey4CoftbdHmzg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_78-CcVFFEey4CoftbdHmzg" targetItem="_78-pgFFFEey4CoftbdHmzg" sourceItem="_78-CcFFFEey4CoftbdHmzg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_79Bs0VFFEey4CoftbdHmzg" targetItem="_79C68FFFEey4CoftbdHmzg" sourceItem="_79Bs0FFFEey4CoftbdHmzg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_79HzcFFFEey4CoftbdHmzg" sourceAnchor="456.0,107.0" targetAnchor="83.0,137.0" target="_79C68FFFEey4CoftbdHmzg" source="_79Mr-VFFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_774dUFFFEey4CoftbdHmzg"/>
+    <bendpoints xmi:id="_8CfboFFFEey4CoftbdHmzg" sourceX="150" targetY="162"/>
+    <stereotypes xmi:id="_79Iag1FFEey4CoftbdHmzg" name="Reference">
+      <modelElement href="PhilosopherProject.uml#_775EYFFFEey4CoftbdHmzg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_79IagFFFEey4CoftbdHmzg" text="">
+      <visualProperties xmi:id="_8CgCsFFFEey4CoftbdHmzg" position="-109.83207330954323,-4.928835812302623"/>
+    </nameVisual>
+    <sourceRole xmi:id="_79IagVFFEey4CoftbdHmzg" aggregationKind="NONE" name="">
+      <modelElement href="PhilosopherProject.uml#_774dUVFFEey4CoftbdHmzg"/>
+      <visualProperties xmi:id="_8CfbolFFEey4CoftbdHmzg" position="35.644098467107526,-14.568703097356263"/>
+      <visibility xmi:id="_79K2wVFFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79K2wFFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_79IaglFFEey4CoftbdHmzg" aggregationKind="NONE" name="rightStick" navigable="true">
+      <modelElement href="PhilosopherProject.uml#_77xIkVFFEey4CoftbdHmzg"/>
+      <visualProperties xmi:id="_8CgCsVFFEey4CoftbdHmzg" position="-103.50917283618593,147.54103178640915"/>
+      <visibility xmi:id="_79K2w1FFEey4CoftbdHmzg" label="-"/>
+      <cardinality xmi:id="_79K2wlFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_79HzcVFFEey4CoftbdHmzg" sourceAnchor="228.0,0.0" targetAnchor="0.0,69.0" target="_79C68FFFEey4CoftbdHmzg" source="_79Mr-VFFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_775EYVFFEey4CoftbdHmzg"/>
+    <bendpoints xmi:id="_8CfboVFFEey4CoftbdHmzg" sourceY="-123" targetX="-295"/>
+    <stereotypes xmi:id="_79JBkVFFEey4CoftbdHmzg" name="Reference">
+      <modelElement href="PhilosopherProject.uml#_775EY1FFEey4CoftbdHmzg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_79IahFFFEey4CoftbdHmzg" text="">
+      <visualProperties xmi:id="_8ChQ0FFFEey4CoftbdHmzg" position="-14.428835812302623,55.83207330954323"/>
+    </nameVisual>
+    <sourceRole xmi:id="_79IahVFFEey4CoftbdHmzg" aggregationKind="NONE" name="">
+      <modelElement href="PhilosopherProject.uml#_775EYlFFEey4CoftbdHmzg"/>
+      <visualProperties xmi:id="_8CgpwFFFEey4CoftbdHmzg" position="0.9312969026437372,-65.64409846710754"/>
+      <visibility xmi:id="_79K2xlFFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79K2xVFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_79JBkFFFEey4CoftbdHmzg" aggregationKind="NONE" name="leftStick" navigable="true">
+      <modelElement href="PhilosopherProject.uml#_77xvoFFFEey4CoftbdHmzg"/>
+      <visualProperties xmi:id="_8ChQ0VFFEey4CoftbdHmzg" position="-314.9589682135908,21.50917283618594"/>
+      <visibility xmi:id="_79K2yFFFEey4CoftbdHmzg" label="-"/>
+      <cardinality xmi:id="_79K2x1FFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_79JBk1FFEey4CoftbdHmzg" targetItem="_79MsFVFFEey4CoftbdHmzg" sourceItem="_79JBklFFEey4CoftbdHmzg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_79JBlVFFEey4CoftbdHmzg" targetItem="_79MsGFFFEey4CoftbdHmzg" sourceItem="_79JBlFFFEey4CoftbdHmzg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_79JooVFFEey4CoftbdHmzg" targetItem="_79MsG1FFEey4CoftbdHmzg" sourceItem="_79JooFFFEey4CoftbdHmzg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_79Joo1FFEey4CoftbdHmzg" targetItem="_79MsHlFFEey4CoftbdHmzg" sourceItem="_79JoolFFEey4CoftbdHmzg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_79KPsVFFEey4CoftbdHmzg" targetItem="_79MsJlFFEey4CoftbdHmzg" sourceItem="_79KPsFFFEey4CoftbdHmzg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_79Mr8FFFEey4CoftbdHmzg" source="_79Mr-VFFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_775rcFFFEey4CoftbdHmzg"/>
+    <stereotypes xmi:id="_79Mr8VFFEey4CoftbdHmzg" name="Reference">
+      <modelElement href="PhilosopherProject.uml#_776SgFFFEey4CoftbdHmzg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_79Mr8lFFEey4CoftbdHmzg" text=""/>
+    <sourceRole xmi:id="_79Mr81FFEey4CoftbdHmzg" aggregationKind="NONE" name="">
+      <modelElement href="PhilosopherProject.uml#_775rcVFFEey4CoftbdHmzg"/>
+      <visibility xmi:id="_79Mr9FFFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79Mr9VFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_79Mr9lFFEey4CoftbdHmzg" aggregationKind="NONE" name="philoThread" navigable="true">
+      <modelElement href="PhilosopherProject.uml#_77yWsFFFEey4CoftbdHmzg"/>
+      <visibility xmi:id="_79Mr91FFEey4CoftbdHmzg" label="-"/>
+      <cardinality xmi:id="_79Mr-FFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_79SLgVFFEey4CoftbdHmzg" targetItem="_79SymFFFEey4CoftbdHmzg" sourceItem="_79SLgFFFEey4CoftbdHmzg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_78-CcFFFEey4CoftbdHmzg" sourceConnectionVisual="_78-CcVFFEey4CoftbdHmzg" text="This will in essence be the creation of the table." item="_78-pgFFFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_773PMlFFEey4CoftbdHmzg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_79Bs0FFFEey4CoftbdHmzg" sourceConnectionVisual="_79Bs0VFFEey4CoftbdHmzg" text="This is the stick class and allows you to create a stick object. This will be&#xD;&#xA;able to keep track of the sticks state." item="_79C68FFFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_773PMVFFEey4CoftbdHmzg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_79JBklFFEey4CoftbdHmzg" sourceConnectionVisual="_79JBk1FFEey4CoftbdHmzg" text="This method will print the current state of the philosopher and based on the&#xD;&#xA;     * state will generate times to sleep the thread while they either think or eat&#xD;&#xA;     * &#xD;&#xA;     * @exception InterruptedException used to manage the sleeping of the thread,&#xD;&#xA;     *                                 will throw if it's distrubed while sleeping&#xD;&#xA;     *                                 waiting or occupied&#xD;&#xA;     *" item="_79MsFVFFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_772oJFFFEey4CoftbdHmzg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_79JBlFFFEey4CoftbdHmzg" sourceConnectionVisual="_79JBlVFFEey4CoftbdHmzg" text="This will stop the threads from print and doing work" item="_79MsGFFFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_772oJVFFEey4CoftbdHmzg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_79JooFFFEey4CoftbdHmzg" sourceConnectionVisual="_79JooVFFEey4CoftbdHmzg" text="This simply starts the philosopher thread" item="_79MsG1FFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_772oJlFFEey4CoftbdHmzg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_79JoolFFEey4CoftbdHmzg" sourceConnectionVisual="_79Joo1FFEey4CoftbdHmzg" text="This method will be used to stop the threads&#xD;&#xA;     * @throws InterruptedException catches interupts" item="_79MsHlFFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_773PMFFFEey4CoftbdHmzg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_79KPsFFFEey4CoftbdHmzg" sourceConnectionVisual="_79KPsVFFEey4CoftbdHmzg" text="This is the Philopsoher object and this keeps track of the sticks next to it&#xD;&#xA;     * and which philosopher/thread it is.&#xD;&#xA;     * &#xD;&#xA;     * @param rightStick a placeholder for the right stick&#xD;&#xA;     * @param leftStick  a placeholder for the left stick&#xD;&#xA;     * @param philoNum   the name for the philosopher" item="_79MsJlFFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_772oI1FFEey4CoftbdHmzg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_79SLgFFFEey4CoftbdHmzg" sourceConnectionVisual="_79SLgVFFEey4CoftbdHmzg" text="This will set the states of the philosopher and keep track of the think or&#xD;&#xA;         * eating times.&#xD;&#xA;         * &#xD;&#xA;         * @param timeToWait will decide how long the philosopher will either THINK or&#xD;&#xA;         *                   EAT" item="_79SymFFFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_772oIlFFEey4CoftbdHmzg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_78-pgFFFEey4CoftbdHmzg" comments="_78-CcFFFEey4CoftbdHmzg" targetConnectionVisual="_78-CcVFFEey4CoftbdHmzg" name="Table">
+    <modelElement href="PhilosopherProject.uml#_76pHMFFFEey4CoftbdHmzg"/>
+    <visualProperties xmi:id="_78-pgVFFEey4CoftbdHmzg" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_78-pglFFEey4CoftbdHmzg" label="+"/>
+    <operations xmi:id="_78-pg1FFEey4CoftbdHmzg" name="main" staticOperation="true">
+      <modelElement href="PhilosopherProject.uml#_76puQFFFEey4CoftbdHmzg"/>
+      <stereotypes xmi:id="_78-phFFFEey4CoftbdHmzg" name="LegacyStyledElement">
+        <modelElement href="PhilosopherProject.uml#_76puQlFFEey4CoftbdHmzg"/>
+      </stereotypes>
+      <visibility xmi:id="_78-phVFFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_78-phlFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_78-ph1FFEey4CoftbdHmzg" name="args">
+        <modelElement href="PhilosopherProject.uml#_76puQVFFEey4CoftbdHmzg"/>
+        <cardinality xmi:id="_78-piFFFEey4CoftbdHmzg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_78-piVFFEey4CoftbdHmzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_79AesFFFEey4CoftbdHmzg" name="Exception">
+    <modelElement href="PhilosopherProject.uml#_77vTYFFFEey4CoftbdHmzg"/>
+    <visualProperties xmi:id="_79AesVFFEey4CoftbdHmzg" position="79.0,153.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_79AeslFFEey4CoftbdHmzg" name="Reference">
+      <modelElement href="PhilosopherProject.uml#_77vTYVFFEey4CoftbdHmzg"/>
+    </stereotypes>
+    <visibility xmi:id="_79Aes1FFEey4CoftbdHmzg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_79C68FFFEey4CoftbdHmzg" comments="_79Bs0FFFEey4CoftbdHmzg" targetConnectionVisual="_79Bs0VFFEey4CoftbdHmzg" name="Stick" associationsIn="_79HzcFFFEey4CoftbdHmzg _79HzcVFFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_76mq8FFFEey4CoftbdHmzg"/>
+    <visualProperties xmi:id="_79C68VFFEey4CoftbdHmzg" position="1.0,-359.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_79C68lFFEey4CoftbdHmzg" label="+"/>
+    <attributes xmi:id="_79C681FFEey4CoftbdHmzg" name="state">
+      <modelElement href="PhilosopherProject.uml#_77y9wVFFEey4CoftbdHmzg"/>
+      <stereotypes xmi:id="_79C69FFFEey4CoftbdHmzg" name="LegacyStyledElement">
+        <modelElement href="PhilosopherProject.uml#_77zk0FFFEey4CoftbdHmzg"/>
+      </stereotypes>
+      <visibility xmi:id="_79C69VFFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79C69lFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <type xmi:id="_79C691FFEey4CoftbdHmzg" name="stickState">
+        <modelElement href="PhilosopherProject.uml#_76nSAFFFEey4CoftbdHmzg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_79C6-FFFEey4CoftbdHmzg" name="Stick">
+      <modelElement href="PhilosopherProject.uml#_76n5FFFFEey4CoftbdHmzg"/>
+      <keywords xmi:id="_79C6-VFFEey4CoftbdHmzg" keyword="create"/>
+      <visibility xmi:id="_79C6-lFFEey4CoftbdHmzg" label="~"/>
+      <cardinality xmi:id="_79C6-1FFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_79C6_FFFEey4CoftbdHmzg">
+        <modelElement href="PhilosopherProject.uml#_76ogIlFFEey4CoftbdHmzg"/>
+        <type xmi:id="_79C6_VFFEey4CoftbdHmzg" name="Stick">
+          <modelElement href="PhilosopherProject.uml#_76mq8FFFEey4CoftbdHmzg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_79C6_lFFEey4CoftbdHmzg" name="avaliable">
+      <modelElement href="PhilosopherProject.uml#_76ogI1FFEey4CoftbdHmzg"/>
+      <visibility xmi:id="_79C6_1FFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79C7AFFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_79C7AVFFEey4CoftbdHmzg" name="taken">
+      <modelElement href="PhilosopherProject.uml#_76ogJFFFEey4CoftbdHmzg"/>
+      <visibility xmi:id="_79C7AlFFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79C7A1FFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_79C7BFFFEey4CoftbdHmzg" name="avaliablity">
+      <modelElement href="PhilosopherProject.uml#_76ogJVFFEey4CoftbdHmzg"/>
+      <visibility xmi:id="_79C7BVFFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79C7BlFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_79C7B1FFEey4CoftbdHmzg">
+        <modelElement href="PhilosopherProject.uml#_76ogJlFFEey4CoftbdHmzg"/>
+        <type xmi:id="_79C7CFFFEey4CoftbdHmzg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_79FXMFFFEey4CoftbdHmzg" name="stickState">
+    <modelElement href="PhilosopherProject.uml#_76nSAFFFEey4CoftbdHmzg"/>
+    <visualProperties xmi:id="_79FXMVFFEey4CoftbdHmzg" position="286.0,-26.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_79FXMlFFEey4CoftbdHmzg" label="+"/>
+    <operations xmi:id="_79FXM1FFEey4CoftbdHmzg" name="stickState">
+      <modelElement href="PhilosopherProject.uml#_76nSA1FFEey4CoftbdHmzg"/>
+      <keywords xmi:id="_79FXNFFFEey4CoftbdHmzg" keyword="create"/>
+      <stereotypes xmi:id="_79FXNVFFEey4CoftbdHmzg" name="LegacyStyledElement">
+        <modelElement href="PhilosopherProject.uml#_76n5ElFFEey4CoftbdHmzg"/>
+      </stereotypes>
+      <visibility xmi:id="_79FXNlFFEey4CoftbdHmzg" label="~"/>
+      <cardinality xmi:id="_79FXN1FFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_79FXOFFFEey4CoftbdHmzg">
+        <modelElement href="PhilosopherProject.uml#_76n5E1FFEey4CoftbdHmzg"/>
+        <type xmi:id="_79FXOVFFEey4CoftbdHmzg" name="stickState">
+          <modelElement href="PhilosopherProject.uml#_76nSAFFFEey4CoftbdHmzg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_79FXOlFFEey4CoftbdHmzg" name="AVAILABLE">
+      <modelElement href="PhilosopherProject.uml#_76nSAVFFEey4CoftbdHmzg"/>
+    </literals>
+    <literals xmi:id="_79FXO1FFEey4CoftbdHmzg" name="TAKEN">
+      <modelElement href="PhilosopherProject.uml#_76nSAlFFEey4CoftbdHmzg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_79Mr-VFFEey4CoftbdHmzg" name="Philospher" associationsOut="_79HzcFFFEey4CoftbdHmzg _79HzcVFFEey4CoftbdHmzg _79Mr8FFFEey4CoftbdHmzg">
+    <modelElement href="PhilosopherProject.uml#_76f9QFFFEey4CoftbdHmzg"/>
+    <visualProperties xmi:id="_79Mr-lFFEey4CoftbdHmzg" position="-522.0,-167.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_79Mr-1FFEey4CoftbdHmzg" label="+"/>
+    <attributes xmi:id="_79Mr_FFFEey4CoftbdHmzg" name="rightStick">
+      <modelElement href="PhilosopherProject.uml#_77xIkVFFEey4CoftbdHmzg"/>
+      <stereotypes xmi:id="_79Mr_VFFEey4CoftbdHmzg" name="LegacyStyledElement">
+        <modelElement href="PhilosopherProject.uml#_77xIklFFEey4CoftbdHmzg"/>
+      </stereotypes>
+      <visibility xmi:id="_79Mr_lFFEey4CoftbdHmzg" label="-"/>
+      <cardinality xmi:id="_79Mr_1FFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <type xmi:id="_79MsAFFFEey4CoftbdHmzg" name="Stick">
+        <modelElement href="PhilosopherProject.uml#_76mq8FFFEey4CoftbdHmzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_79MsAVFFEey4CoftbdHmzg" name="leftStick">
+      <modelElement href="PhilosopherProject.uml#_77xvoFFFEey4CoftbdHmzg"/>
+      <stereotypes xmi:id="_79MsAlFFEey4CoftbdHmzg" name="LegacyStyledElement">
+        <modelElement href="PhilosopherProject.uml#_77xvoVFFEey4CoftbdHmzg"/>
+      </stereotypes>
+      <visibility xmi:id="_79MsA1FFEey4CoftbdHmzg" label="-"/>
+      <cardinality xmi:id="_79MsBFFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <type xmi:id="_79MsBVFFEey4CoftbdHmzg" name="Stick">
+        <modelElement href="PhilosopherProject.uml#_76mq8FFFEey4CoftbdHmzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_79MsBlFFEey4CoftbdHmzg" name="state">
+      <modelElement href="PhilosopherProject.uml#_77xvolFFEey4CoftbdHmzg"/>
+      <stereotypes xmi:id="_79MsB1FFEey4CoftbdHmzg" name="LegacyStyledElement">
+        <modelElement href="PhilosopherProject.uml#_77xvo1FFEey4CoftbdHmzg"/>
+      </stereotypes>
+      <visibility xmi:id="_79MsCFFFEey4CoftbdHmzg" label="-"/>
+      <cardinality xmi:id="_79MsCVFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <type xmi:id="_79MsClFFEey4CoftbdHmzg" name="PhilospherStates">
+        <modelElement href="PhilosopherProject.uml#_76gkUFFFEey4CoftbdHmzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_79MsC1FFEey4CoftbdHmzg" name="philoThread">
+      <modelElement href="PhilosopherProject.uml#_77yWsFFFEey4CoftbdHmzg"/>
+      <stereotypes xmi:id="_79MsDFFFEey4CoftbdHmzg" name="LegacyStyledElement">
+        <modelElement href="PhilosopherProject.uml#_77yWsVFFEey4CoftbdHmzg"/>
+      </stereotypes>
+      <visibility xmi:id="_79MsDVFFEey4CoftbdHmzg" label="-"/>
+      <cardinality xmi:id="_79MsDlFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <type xmi:id="_79MsD1FFEey4CoftbdHmzg" name="Thread">
+        <modelElement href="PhilosopherProject.uml#_77sQEFFFEey4CoftbdHmzg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_79MsEFFFEey4CoftbdHmzg" name="thinking">
+      <modelElement href="PhilosopherProject.uml#_77yWslFFEey4CoftbdHmzg"/>
+      <stereotypes xmi:id="_79MsEVFFEey4CoftbdHmzg" name="LegacyStyledElement">
+        <modelElement href="PhilosopherProject.uml#_77y9wFFFEey4CoftbdHmzg"/>
+      </stereotypes>
+      <visibility xmi:id="_79MsElFFEey4CoftbdHmzg" label="-"/>
+      <cardinality xmi:id="_79MsE1FFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <type xmi:id="_79MsFFFFEey4CoftbdHmzg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_79MsFVFFEey4CoftbdHmzg" comments="_79JBklFFEey4CoftbdHmzg" targetConnectionVisual="_79JBk1FFEey4CoftbdHmzg" name="whatyouDoing">
+      <modelElement href="PhilosopherProject.uml#_76jnoFFFEey4CoftbdHmzg"/>
+      <visibility xmi:id="_79MsFlFFEey4CoftbdHmzg" label="-"/>
+      <cardinality xmi:id="_79MsF1FFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_79MsGFFFEey4CoftbdHmzg" comments="_79JBlFFFEey4CoftbdHmzg" targetConnectionVisual="_79JBlVFFEey4CoftbdHmzg" name="threadStop">
+      <modelElement href="PhilosopherProject.uml#_76kOsFFFEey4CoftbdHmzg"/>
+      <visibility xmi:id="_79MsGVFFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79MsGlFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_79MsG1FFEey4CoftbdHmzg" comments="_79JooFFFEey4CoftbdHmzg" targetConnectionVisual="_79JooVFFEey4CoftbdHmzg" name="startThread">
+      <modelElement href="PhilosopherProject.uml#_76kOsVFFEey4CoftbdHmzg"/>
+      <visibility xmi:id="_79MsHFFFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79MsHVFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_79MsHlFFEey4CoftbdHmzg" comments="_79JoolFFEey4CoftbdHmzg" targetConnectionVisual="_79Joo1FFEey4CoftbdHmzg" name="stopThreadWait">
+      <modelElement href="PhilosopherProject.uml#_76kOslFFEey4CoftbdHmzg"/>
+      <visibility xmi:id="_79MsH1FFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79MsIFFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_79MsIVFFEey4CoftbdHmzg" name="run">
+      <modelElement href="PhilosopherProject.uml#_76kOs1FFEey4CoftbdHmzg"/>
+      <stereotypes xmi:id="_79MsIlFFEey4CoftbdHmzg" name="LegacyStyledElement">
+        <modelElement href="PhilosopherProject.uml#_76k1wFFFEey4CoftbdHmzg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_79MsI1FFEey4CoftbdHmzg" name="Annotations">
+        <modelElement href="PhilosopherProject.uml#_76k1wVFFEey4CoftbdHmzg"/>
+      </stereotypes>
+      <visibility xmi:id="_79MsJFFFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79MsJVFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_79MsJlFFEey4CoftbdHmzg" comments="_79KPsFFFEey4CoftbdHmzg" targetConnectionVisual="_79KPsVFFEey4CoftbdHmzg" name="Philospher">
+      <modelElement href="PhilosopherProject.uml#_77mJcFFFEey4CoftbdHmzg"/>
+      <keywords xmi:id="_79MsJ1FFEey4CoftbdHmzg" keyword="create"/>
+      <visibility xmi:id="_79MsKFFFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79MsKVFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_79MsKlFFEey4CoftbdHmzg">
+        <modelElement href="PhilosopherProject.uml#_77mJdlFFEey4CoftbdHmzg"/>
+        <type xmi:id="_79MsK1FFEey4CoftbdHmzg" name="Philospher">
+          <modelElement href="PhilosopherProject.uml#_76f9QFFFEey4CoftbdHmzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_79MsLFFFEey4CoftbdHmzg" name="righStick">
+        <modelElement href="PhilosopherProject.uml#_77mJcVFFEey4CoftbdHmzg"/>
+        <cardinality xmi:id="_79MsLVFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+        <type xmi:id="_79MsLlFFEey4CoftbdHmzg" name="Stick">
+          <modelElement href="PhilosopherProject.uml#_76mq8FFFEey4CoftbdHmzg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_79MsL1FFEey4CoftbdHmzg" name="lefStick">
+        <modelElement href="PhilosopherProject.uml#_77mJclFFEey4CoftbdHmzg"/>
+        <cardinality xmi:id="_79MsMFFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+        <type xmi:id="_79MsMVFFEey4CoftbdHmzg" name="Stick">
+          <modelElement href="PhilosopherProject.uml#_76mq8FFFEey4CoftbdHmzg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_79MsMlFFEey4CoftbdHmzg" name="philoNum">
+        <modelElement href="PhilosopherProject.uml#_77mJc1FFEey4CoftbdHmzg"/>
+        <cardinality xmi:id="_79MsM1FFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+        <type xmi:id="_79MsNFFFEey4CoftbdHmzg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_79SykFFFEey4CoftbdHmzg" name="PhilospherStates">
+    <modelElement href="PhilosopherProject.uml#_76gkUFFFEey4CoftbdHmzg"/>
+    <visualProperties xmi:id="_79SykVFFEey4CoftbdHmzg" position="-986.0,-243.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_79SyklFFEey4CoftbdHmzg" label="+"/>
+    <attributes xmi:id="_79Syk1FFEey4CoftbdHmzg" name="timeTofinish">
+      <modelElement href="PhilosopherProject.uml#_77whgFFFEey4CoftbdHmzg"/>
+      <stereotypes xmi:id="_79SylFFFEey4CoftbdHmzg" name="LegacyStyledElement">
+        <modelElement href="PhilosopherProject.uml#_77xIkFFFEey4CoftbdHmzg"/>
+      </stereotypes>
+      <visibility xmi:id="_79SylVFFEey4CoftbdHmzg" label="+"/>
+      <cardinality xmi:id="_79SyllFFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <type xmi:id="_79Syl1FFEey4CoftbdHmzg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_79SymFFFEey4CoftbdHmzg" comments="_79SLgFFFEey4CoftbdHmzg" targetConnectionVisual="_79SLgVFFEey4CoftbdHmzg" name="PhilospherStates">
+      <modelElement href="PhilosopherProject.uml#_76hycFFFEey4CoftbdHmzg"/>
+      <keywords xmi:id="_79SymVFFEey4CoftbdHmzg" keyword="create"/>
+      <visibility xmi:id="_79SymlFFEey4CoftbdHmzg" label="~"/>
+      <cardinality xmi:id="_79Sym1FFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_79SynFFFEey4CoftbdHmzg">
+        <modelElement href="PhilosopherProject.uml#_76iZg1FFEey4CoftbdHmzg"/>
+        <type xmi:id="_79SynVFFEey4CoftbdHmzg" name="PhilospherStates">
+          <modelElement href="PhilosopherProject.uml#_76gkUFFFEey4CoftbdHmzg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_79SynlFFEey4CoftbdHmzg" name="timeToWait">
+        <modelElement href="PhilosopherProject.uml#_76iZgFFFEey4CoftbdHmzg"/>
+        <cardinality xmi:id="_79Syn1FFEey4CoftbdHmzg" label="1" max="1" min="1"/>
+        <type xmi:id="_79SyoFFFEey4CoftbdHmzg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <literals xmi:id="_79SyoVFFEey4CoftbdHmzg" name="THINKING">
+      <modelElement href="PhilosopherProject.uml#_76hLYFFFEey4CoftbdHmzg"/>
+    </literals>
+    <literals xmi:id="_79SyolFFEey4CoftbdHmzg" name="EATING">
+      <modelElement href="PhilosopherProject.uml#_76hLYlFFEey4CoftbdHmzg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_79VO0FFFEey4CoftbdHmzg" name="InterruptedException">
+    <modelElement href="PhilosopherProject.uml#_77s3IVFFEey4CoftbdHmzg"/>
+    <visualProperties xmi:id="_79VO0VFFEey4CoftbdHmzg" position="149.0,-147.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_79VO0lFFEey4CoftbdHmzg" name="Reference">
+      <modelElement href="PhilosopherProject.uml#_77teMFFFEey4CoftbdHmzg"/>
+    </stereotypes>
+    <visibility xmi:id="_79VO01FFEey4CoftbdHmzg" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
