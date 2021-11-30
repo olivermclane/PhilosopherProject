@@ -1,3 +1,5 @@
+package src;
+
 /**
  * This is the stick class and allows you to create a stick object. This will be
  * able to keep track of the sticks state.
