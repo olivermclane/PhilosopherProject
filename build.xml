@@ -1,0 +1,29 @@
+<project name="Table" default="compile" basedir=".">
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="dist" location="dist"/>
+  <presetdef name="javac">
+    <javac includeantruntime="false" />
+  </presetdef>
+
+  <target name="init">
+    <mkdir dir="${dist}"/>
+    <mkdir dir="${dist}/classes"/>
+  </target>
+
+  <target name="compile" depends="init">
+    <javac destdir="${dist}/classes" debug="true" srcdir="${src}"/>
+  </target>
+
+  <target name="jar" depends="init,compile">
+    <jar destfile="${dist}/${ant.project.name}.jar" basedir="${dist}/classes">
+      <manifest>
+        <attribute name="Main-Class" value="${ant.project.name}"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="clean">
+    <delete dir="${dist}"/>
+  </target>
+</project>
