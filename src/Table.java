@@ -1,10 +1,9 @@
-package src;
-
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * This will in essence be the creation of the table.
+/** 
+ * This will in essence be the creation of the table, will manange
+ * the philosopher and sticks, and create them.
  */
 public class Table {
     /**
@@ -40,9 +39,8 @@ public class Table {
             philosophers.get(i).startThread();
         }
         //delay time
-        while(true){
-            try{
-                Thread.currentThread().sleep(endTime);
+        try{
+            Thread.currentThread().sleep(endTime);
                 break;
             }catch(InterruptedException e){
                 System.out.println("Issue sleeping main thread");

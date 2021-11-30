@@ -1,5 +1,7 @@
-package src;
-
+/**
+ * This is our Philosopher class and will manage philsopshers properties 
+ *  as aswell as he track of the philosopher state.
+ */
 public class Philospher implements Runnable {
 
     public enum PhilospherStates {
@@ -92,7 +94,6 @@ public class Philospher implements Runnable {
     public void stopThreadWait(){
         try{
             philoThread.join();
-            System.out.println(philoThread.getName()+ " is stopping");
         }catch(InterruptedException e){
             System.err.println(philoThread.getName() + " stop malfunction");
 
