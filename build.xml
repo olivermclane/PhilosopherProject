@@ -12,7 +12,7 @@
   </target>
 
   <target name="compile" depends="init">
-    <javac srcdir="${src}" debug="true" destdir="${dist}/classes"/>
+    <javac srcdir="src" debug="true" destdir="${dist}/classes"/>
   </target>
 
   <target name="jar" depends="init,compile">
