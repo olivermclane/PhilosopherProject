@@ -41,10 +41,8 @@ public class Table {
         //delay time
         try{
             Thread.currentThread().sleep(endTime);
-                break;
             }catch(InterruptedException e){
                 System.out.println("Issue sleeping main thread");
-            }
         }
         //stop the process running
         for(int i = 0; i < philosophers.size(); i++){
