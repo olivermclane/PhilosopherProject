@@ -17,7 +17,7 @@ public class Table {
      *                   handled
      */
     public static void main(String args[]) throws Exception {
-        long endTime = 60000;
+        long endTime = 6000;
         List<Philospher> philosophers = new ArrayList<Philospher>(5);
         List<Stick> sticks = new ArrayList<Stick>(5);
 
