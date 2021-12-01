@@ -1,6 +1,8 @@
+package src;
+
 /**
- * This is our Philosopher class and will manage philsopshers properties 
- *  as aswell as he track of the philosopher state.
+ * This is our Philosopher class and will manage philosophers properties 
+ *  as as well as he track of the philosopher state.
  */
 public class Philospher implements Runnable {
 
@@ -23,8 +25,8 @@ public class Philospher implements Runnable {
     }
 
     /**
-     * different sticks for philospher location, this should help us decipher which
-     * are avaliable
+     * different sticks for philosopher location, this should help us decipher which
+     * are available
      */
 
     private Stick rightStick;
@@ -34,7 +36,7 @@ public class Philospher implements Runnable {
     private boolean thinking;
 
     /**
-     * This is the Philopsoher object and this keeps track of the sticks next to it
+     * This is the philosopher object and this keeps track of the sticks next to it
      * and which philosopher/thread it is.
      * 
      * @param rightStick a placeholder for the right stick
@@ -55,7 +57,7 @@ public class Philospher implements Runnable {
      * state will generate times to sleep the thread while they either think or eat
      * 
      * @exception InterruptedException used to manage the sleeping of the thread,
-     *                                 will throw if it's distrubed while sleeping
+     *                                 will throw if it's disturbed while sleeping
      *                                 waiting or occupied
      * 
      */
@@ -89,7 +91,7 @@ public class Philospher implements Runnable {
 
     /**
      * This method will be used to stop the threads
-     * @throws InterruptedException catches interupts
+     * @throws InterruptedException catches interrupts
      */
     public void stopThreadWait(){
         try{
@@ -101,7 +103,7 @@ public class Philospher implements Runnable {
     }
 
     /**
-     * This is the runnable for the philsopher and will manage each philsopher based
+     * This is the runnable for the philosopher and will manage each philosopher based
      * on its state of the sticks around them and the philosopher
      */
     @Override

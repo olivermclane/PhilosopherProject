@@ -1,8 +1,10 @@
+package src;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /** 
- * This will in essence be the creation of the table, will manange
+ * This will in essence be the creation of the table, will manage
  * the philosopher and sticks, and create them.
  */
 public class Table {

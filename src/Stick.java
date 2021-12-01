@@ -1,3 +1,5 @@
+package src;
+
 /**
  * This is the stick class and allows you to create a stick object. This will be
  * able to keep track of the sticks state.
@@ -8,7 +10,7 @@ public class Stick {
         AVAILABLE, TAKEN;
 
         /**
-         * This is for testing purposes and was used to test certian functions in early
+         * This is for testing purposes and was used to test certain functions in early
          * stages.
          */
         stickState() {
